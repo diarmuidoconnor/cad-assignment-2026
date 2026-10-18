@@ -100,15 +100,18 @@ The application should log all user requests to CloudWatch logs. A log entry sho
 
 #### Grading spectrum.
 
-40-50% - All GET requests.
-51-65% - POST requests (no auth). Reasonable error handling.
-66-85% - Excellent error handling. API key authentication.
-86%+ - Excellent coding standard (aligned with provided code).
++ 40-50% - All GET requests.
+
++ 51-65% - POST requests (no auth). Reasonable error handling.
+
++ 66-85% - Excellent error handling. API key authentication.
+
++ 86%+ - Excellent coding standard (aligned with provided code).
 
 #### Advice
 
++ Responses should never return database items; they should only return model data, e.g. Actor, Role. Make use of the utility methods in `shared/model.ts`.
 
-+ Responses should never return database items; they should only return model data, e.g. Actor, Role. Make use of the utility methods in shared/model.ts.
 + Responses with data should use the following structure:
 ~~~json
 {
@@ -116,9 +119,10 @@ The application should log all user requests to CloudWatch logs. A log entry sho
      // model data  
 } 
 ~~~
+
 + Query string and path parameters are interpreted as strings by the HTTP protocol, e.g. 1547 --> "1547". Consequently, you are never guaranteed that a parameter is a number even when it should be one.
 
-   + Consider using the following implementation strategy:
++ Consider using the following implementation strategy:
      1. Complete GET request functionality, assuming the 'happy path'.
      1. Add error handling to GET processing.
      1. Ensure authentication works for GETs.
