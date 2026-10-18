@@ -4,7 +4,7 @@ This repository contains an implementation of the serverless web API specified b
 
 __Objective:__ Demonstrate your knowledge of serverless Web API design and deployment by completing the implementation.
 
-__Completion Date:__10/11/26, midnight.
+__Completion Date:__ 10/11/26, midnight.
 
 __CA mark:__ 45%.
 
@@ -13,7 +13,8 @@ __Deliverables:__
 + A text file (serverless-assignment.txt) containing:
    + The URL of the GitHub repository. 
    + The URL of the YouTube video demonstrating the API.
-Upload the text file using [this Moodle link][moodle].
+
++ Upload the text file using [this Moodle link][moodle].
 
 __Notes:__
 + To avoid plagiarism, you must set your GitHub repository visibility to PRIVATE. Shortly after the completion deadline, you will be requested to set it to public visibility to enable assessment.
