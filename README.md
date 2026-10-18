@@ -1,6 +1,6 @@
 ## Cloud App Development - Assignment.
 
-This repository contains an implementation of the serverless web API specified below, and the CDK code to provision its infrastructure for the AWS cloud. However, it is incomplete as there are bugs and missing features (labelled TODO in the code).
+This repository contains an implementation of the serverless web API specified below, and the CDK code to provision its infrastructure for the AWS cloud. However, it is incomplete as there are bugs and missing features.
 
 __Objective:__ Demonstrate your knowledge of serverless Web API design and deployment by completing the implementation.
 
